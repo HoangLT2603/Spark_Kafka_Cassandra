@@ -1,0 +1,5 @@
+cassandra_checkpoint
+weather_detail
+weather_detail_checkpoint
+venv
+test_cassandra.py
