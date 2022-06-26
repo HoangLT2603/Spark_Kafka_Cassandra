@@ -28,7 +28,7 @@ def get_weather_detail(openweathermap_api_endpoint):
 
 while True:
     city_name = "Ho Chi Minh City"
-    appid = "d1f255a1251258e9884cf848113b4ab0"
+    appid = ""
     openweathermap_api_endpoint = "http://api.openweathermap.org/data/2.5/weather?appid="+appid+"&q="+city_name
     json_message= get_weather_detail(openweathermap_api_endpoint)
     producer.send(kafka_topic, json_message)
